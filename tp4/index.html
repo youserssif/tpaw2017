@@ -1,0 +1,124 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TP4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+     <link  href=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css "rel="stylesheet" />
+      <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+      
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        <script src="jquery-3.1.1.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+
+        
+           <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+
+
+    </head>
+    <body>        
+        <h1>TP4</h1>
+        <form class="form-horizontal">
+            <!-- Add your site or application content here -->
+            
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="nom">Nom:</label>
+                    <div class="col-xs-5">
+                        <input type="text" class="form-control" id="nom" />
+                    </div>
+                    <!--les calcule pour nombre des caractére-->
+                    <div class="col-xs-2">
+                        <div  id="nbr_nom"></div>
+                    </div>
+                 </div>
+
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="prenom">Prénom:</label>
+                <div class="col-xs-5">
+                    <input type="text" class="form-control" id="prenom" />
+                </div>
+                <!--les calcule pour nombre des caractére-->
+                <div class="col-xs-2">
+                    <div id="nbr_prenom"></div>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="dt_nai">Date de naisssance:</label>
+                <div class="col-xs-5">
+                    <input type="text" class="form-control" id="dt_nai" />
+                    
+                </div>
+                <!--les calcule pour nombre des caractére-->
+                <div class="col-xs-2">
+                    <div id="nbr_nai"></div>
+                </div>
+                </div>
+            
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="addr">Adresse:</label>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="addr" />
+                   
+                </div>
+                
+                <!--les calcule pour nombre des caractére-->
+               
+                <div class="col-sm-1">
+                <button type="button" class="btn btn-success" id="btn_gps" onclick="getLocation();">GPS</button>
+                    
+                    
+                </div>
+                <div id="nbr_lo" ></div>
+            </div>
+
+<div id="map"></div>
+
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">E-mail:</label>
+                <div class="col-xs-4">
+                    <input type="email" class="form-control" id="email" />
+                </div>
+                                <!--les calcule pour nombre des caractére-->
+                <div class="col-xs-2">
+                    <div id="nbr_email"></div>
+                </div>
+                
+            </div>
+
+
+
+           <div class="form-group">
+                <button type="button" class="btn btn-primary" id="btn_valider" onclick="save();">Valider</button> 
+                <div class="col-xs-2">
+                 <div id="resultat" ></div>
+                 
+                </div>
+                
+            </div>
+
+
+
+            
+        </form>
+</body>
+</html>
