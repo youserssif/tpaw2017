@@ -1,0 +1,15 @@
+﻿body {
+    padding:50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightslategrey;
+}
+#map{
+    margin-left: 210px;
+    margin-bottom:5px;
+}
+#resultat{
+    font: 15px arial;
+    background:cornflowerblue;
+    text-align: center;
+}
