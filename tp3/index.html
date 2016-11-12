@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Bootstrap Example </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet" />
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+
+    <script src="jquery-3.1.1.min.js"></script>
+
+
+
+    <script src="jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="js_TP3.js"></script>
+
+
+</head>
+
+
+<body>
+
+    <div class="container-fluid">
+        <h1> TP AW - FORMULAIRE v2</h1>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="Nom" class="col-sm-2 control-label">Nom</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Nom" placeholder="Entrez votre nom">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Prenom" class="col-sm-2 control-label">Prenom</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Prenom" placeholder="Entrez votre prenom">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="DateDeNaisance" class="col-sm-2 control-label">Date de naissance</label>
+                <div class="col-sm-10">
+                    <input type="datetime" class="form-control" id="DateDeNaisance" placeholder="JJ/MM/AAAA">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Adress" class="col-sm-2 control-label">Adresse</label>
+                <div class="col-sm-10">
+                    <input type="Text" class="form-control" id="Adresse" placeholder="Entrez votre adress">
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="Mail" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="Mail" placeholder="Entrez votre mail">
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="button" id="Valider" class="btn btn-info" onclick="getLocation();">Valider</button>
+                </div>
+            </div>
+
+            <!-- Modal error-->
+            <div id="Modal_error" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Messages</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Veuillez remplir tous les champs SVP.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Modal map-->
+            <div id="Modal_Map" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h1 id="bienvenue"> </h1>
+                            <p id="paragragh"> </p>
+                        </div>
+                        <div id="map" >
+                            <p id="demo"></p>
+                          
+                          
+                            </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+  <script>
+
+</script>
+</body>
+</html>

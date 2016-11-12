@@ -1,0 +1,40 @@
+﻿body{
+    background-color:gray;
+    padding-top:50px;
+}
+#error{
+    font:bold 14px arial;
+    color:red;
+}
+#div_princ{
+    background-color:white;
+    width:550px;
+    height:auto;
+    position:relative;
+    margin:auto;
+    box-shadow:10px 10px 5px black;
+    padding:20px;
+    border-radius:25px 25px 0 0 ;
+}
+.c_input{
+    height:30px;
+    width:300px;
+    margin-bottom:10px;
+    border:solid 2px grey;
+    border-radius:5px;
+    display:inline-block;
+    padding:10px;
+}
+.c_input:hover{
+    border:solid 2px black;
+}
+h1{
+    text-align:center;
+    font:bold 36px arial ;
+}
+td{
+    padding:0 0 0 10px;
+}
+tr{
+    margin:0 0 0 10px;
+}
