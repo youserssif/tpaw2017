@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TP_2</title>
+    <link href="css2.css" rel="stylesheet" />
+    <script src="js_TP2.js"></script>
+</head>
+<body>
+    <center><h1> Formulaire Personnel</h1></center> 
+    <div id="div_princ">
+        <form action="#">
+            <table>
+                <tr>
+                    <td>  <label for="nom">Nom: </label></td>
+                    <td> <input type="text" name="nom" id="nom" class="c_input" /></td>
+                </tr>
+                <tr>
+                    <td><label for="prenom">Pénom: </label></td>
+
+                    <td><input type="text" name="prenom" id="prenom" class="c_input" /></td>
+                <tr>
+                    <td><label for="dateN">Date de Naissance : </label></td>
+
+                    <td><input type="date" name="dateN" class="c_input" /></td>
+                </tr>
+
+
+               <tr>
+                   <td><label for="mail">E-mail: </label></td>
+
+                   <td> <input type="email" name="mail" class="c_input" /></td>
+               </tr>
+                <tr>
+                    <td>  <input type="submit" value="Valider" id="button" onclick="verifier();" /></td>
+                    <td> <div id="error"></div>
+                     <div id="resultat"></div></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>

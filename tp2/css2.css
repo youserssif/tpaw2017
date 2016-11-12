@@ -1,0 +1,50 @@
+﻿body{
+    background-color:gray;
+    padding-top:50px;
+}
+
+#button{
+    width:100px;
+    height:30px;
+    border:solid 1px black;
+}
+#div_princ{
+    background-color:white;
+    width:550px;
+    height:auto;
+    position:relative;
+    margin:auto;
+    box-shadow:10px 10px 5px black;
+    padding:20px;
+}
+.c_input{
+    height:30px;
+    width:300px;
+    border:solid 1px;
+    margin-bottom:10px;
+    border:solid 2px grey;
+    border-radius:10px;
+    display:inline-block;
+}
+#button{
+   margin-right:auto;
+   margin-left:auto;
+    border-radius:10px;
+}
+.c_input:hover{
+    border:solid 2px black;
+}
+#button:hover{
+    background-color:#010d96;
+    text-decoration:solid;
+    color:white;
+    cursor:pointer;
+}
+#resultat{
+    font:bold 14px;
+    color:green;
+}
+#error{
+     font:bold 14px;
+     color:red;
+}
