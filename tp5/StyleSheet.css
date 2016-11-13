@@ -1,0 +1,33 @@
+﻿body{
+    background:#808080;
+    width:1000px;
+    position:static;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+#btn_rech{
+    color:white;
+    background:#0094ff;
+}
+#btn_gps{
+    background:#ff6a00;
+    color:white;
+}
+#nom_w{
+    font:bold 35px arial;
+    text-align:center;
+}
+#all{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#temps{
+    font: bold 36px arial;
+}
+#cadre{
+    margin: 10px;
+}
